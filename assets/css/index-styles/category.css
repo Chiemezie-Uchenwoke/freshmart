@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.category i{
+    font-size: 1.3rem;
+}
+
 .category aside{
     position: fixed;
     left: 0;

@@ -1,6 +1,20 @@
+:root{
+    --pri-color: #0d9d63;
+    --acc-color-dark: #1E3E62;
+    --sec-color: #FFD65A;
+    --sec-color2: #FF9D23;
+    --red: #F93827;
+    --teal: #2E5077;
+    --teal-light: #4DA1A9;
+    --white: #f6f6f6;
+    --text-color: #94a3b8;
+    --text-color-dark: #1a1a1a;
+}
+
 footer{
-    border-top: 1px solid rgba(246, 246, 246, 0.2);
+    border-top: 1px solid rgba(246, 246, 246, 0.7);
     padding: 4rem;
+    background-color: var(--pri-color);
 }
 
 footer > div{
@@ -12,9 +26,17 @@ footer > div{
     text-transform: capitalize;
 }
 
+footer a.txt{
+    color: var(--white);
+}
+
+footer a.txt span.col{
+    color: var(--sec-color);
+}
+
 footer p{
     margin: 0;
-    color: var(--text-color);
+    color: var(--white);
     font-size: 0.9rem;
     font-weight: 400;
     text-align: center;

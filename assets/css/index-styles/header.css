@@ -1,31 +1,47 @@
+:root{
+    --pri-color: #0d9d63;
+    --acc-color-dark: #1E3E62;
+    --sec-color: #FFD65A;
+    --sec-color2: #FF9D23;
+    --red: #F93827;
+    --teal: #2E5077;
+    --teal-light: #4DA1A9;
+    --white: #f6f6f6;
+    --text-color: #94a3b8;
+    --text-color-dark: #1a1a1a;
+}
+
 header{
     width: 100%;
     position: sticky;
-    background-color: var(--pri-color);
+    background-color: var(--white);
+    color: var(--text-color-dark);
     top: 0;
     z-index: 100;
-    border-bottom: 1px solid rgba(246, 246, 246, 0.2);
-    height: 4rem;
+    border-bottom: 1px solid rgba(26, 26, 26, 0.2);
+    height: 3rem;
     display: flex;
     align-items: center;
 }
 
 .active{
-    color: var(--sec-color);
+    color: var(--pri-color);
 }
 
 /* loadpage class */
 .loadpage{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     letter-spacing: 0.3px;
     filter: brightness(1.1);
+    color: var(--pri-color);
 }
 
 .loadpage .col{
-    color: var(--sec-color)
+    color: var(--sec-color2);
+    filter: brightness(0.9);
 }
 
 .loadpage img{
@@ -44,7 +60,7 @@ header .desktop{
 }
 
 header a{
-    color: var(--white);
+    color: var(--text-color-dark);
     text-transform: capitalize;
     font-size: 1.1rem;
     font-weight: 600;
@@ -87,7 +103,7 @@ header .mobile-dropdown .menus{
 }
 
 .mobile i{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 /* toggler buttons */
@@ -171,7 +187,7 @@ header .mobile-dropdown a{
     }
 
     header{
-        height: 4rem;
+        height: 3rem;
     }
 
     header > nav{
@@ -184,17 +200,18 @@ header .mobile-dropdown a{
     }
 
     .desktop>a{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;
         filter: brightness(1.1);
     }
 
     .loadpage{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        font-weight: 700;
     }
 
     .desktop>a:hover{
-        color: var(--sec-color);
+        color: var(--pri-color);
     }
 }
 

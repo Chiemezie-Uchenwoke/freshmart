@@ -14,7 +14,7 @@
 .category{
     width: 100%;
     border-bottom: 1px solid rgba(26, 26, 26, 0.1);
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
     background-color: rgba(148, 163, 184, 0.2);
 }
 
@@ -27,6 +27,8 @@
 
 .category-inner p{
     margin: 0;
+    font-size: 0.8;
+    text-transform: capitalize;
 }
 
 .category-inner button{
@@ -35,7 +37,7 @@
 }
 
 .category i{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .category aside{

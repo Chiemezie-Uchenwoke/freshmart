@@ -70,7 +70,7 @@
 .hero-description p{
     color: var(--acc-color-dark);
     text-transform: capitalize;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 700;
 }
 
@@ -83,6 +83,7 @@
 
 .hero-description .col{
     color: var(--red);
+    filter: contrast(0.85);
 }
 
 .hero-description button{
@@ -178,7 +179,7 @@
 
 @media (min-width: 1000px){
     .hero-description p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .hero-description h1{

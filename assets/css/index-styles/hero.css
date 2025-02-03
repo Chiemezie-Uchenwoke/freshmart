@@ -3,7 +3,7 @@
     --acc-color-dark: #1E3E62;
     --sec-color: #FFD65A;
     --sec-color2: #FF9D23;
-    --red: #F93827;
+    --red: #d93122;
     --teal: #2E5077;
     --teal-light: #4DA1A9;
     --white: #f6f6f6;
@@ -70,14 +70,15 @@
 .hero-description p{
     color: var(--acc-color-dark);
     text-transform: capitalize;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
 
 .hero-description h1{
     color: var(--acc-color-dark);
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .hero-description .col{
@@ -96,6 +97,9 @@
     text-transform: capitalize;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .hero-description button:hover{
@@ -164,8 +168,7 @@
 
 @media (min-width: 768px){
     .orange{
-        display: block;
-        animation: orange-roll 7s ease-in-out infinite;
+        display: none;
     }
 
     .hero-description h1{
@@ -183,6 +186,7 @@
     }
 
     .orange{
+        display: block;
         left: 50%;
         animation: orange-roll-lp 7s ease-in-out infinite;
     }

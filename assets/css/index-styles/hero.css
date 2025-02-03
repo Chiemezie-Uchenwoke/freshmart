@@ -194,10 +194,11 @@
 
         70%{
             transform: rotate(30deg, 80deg);
+            opacity: 1;
         }
     
         100%{
-            opacity: 1;
+            opacity: 0.5;
         }
     }
 }

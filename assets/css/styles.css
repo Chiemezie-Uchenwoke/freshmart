@@ -37,7 +37,7 @@ body{
 
 /* Margin-top */
 .top-margin{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 /* Global Headings Style */
@@ -151,7 +151,7 @@ li {
     }
 
     .top-margin{
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 }
 
@@ -161,7 +161,7 @@ li {
     }
 
     .top-margin{
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
 
     .scroll__top{
@@ -181,7 +181,7 @@ li {
     }
     
     .top-margin{
-        margin-top: 8rem;
+        margin-top: 6rem;
     }
 
     .scroll__top{
@@ -197,6 +197,6 @@ li {
     }
     
     .top-margin{
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
 }

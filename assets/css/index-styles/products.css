@@ -71,6 +71,7 @@
 
 .details p{
     color: var(--pri-color);
+    user-select: none;
 }
 
 .details i{
@@ -80,6 +81,7 @@
 .details label{
     text-transform: capitalize;
     font-size: 0.8rem;
+    user-select: none;
 }
 
 @media (min-width: 600px){

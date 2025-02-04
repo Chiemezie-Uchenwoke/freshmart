@@ -42,6 +42,20 @@
     gap: 2rem;
 }
 
+.products-image{
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.products-inner > div{
+    transition: 0.3s ease-in-out;
+}
+
+.products-inner > div:hover{
+    transform: translateY(-2.5px);
+    transition: 0.3s ease-in-out;
+}
+
 .products img{
     width: 100%;
     height: 100%;

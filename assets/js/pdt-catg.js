@@ -16,7 +16,7 @@ function scrollAndScale() {
     items[currentIndex].classList.add("scale-img");
 
     // Scroll the container
-    const itemWidth = items[currentIndex].offsetWidth + 20; // Width + gap
+    const itemWidth = items[currentIndex].offsetWidth + 32; // Width + gap
     container.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
     container.style.transition = "transform 0.8s ease-in-out"; // Smooth transition
 

@@ -61,6 +61,14 @@
     cursor: pointer;
 }
 
+.details button:hover{
+    filter: brightness(0.95);
+}
+
+.details button:active{
+    transform: translateY(2px);
+}
+
 .details p{
     color: var(--pri-color);
 }

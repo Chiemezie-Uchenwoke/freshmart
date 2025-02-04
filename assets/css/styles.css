@@ -93,8 +93,8 @@ li {
 .scroll__top{
     all: unset;
     cursor: pointer;
-    background-color: var(--sec-color);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--text-color-dark);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -106,7 +106,9 @@ li {
     position: fixed;
     right: 3%;
     bottom: 8%;
-    animation: scroll 2s ease-in-out infinite;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(30, 62, 98, 0.2);
+    /* animation: scroll 2s ease-in-out infinite; */
 }
 
 .whatsapp{

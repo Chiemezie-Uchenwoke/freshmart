@@ -52,7 +52,7 @@
 }
 
 .products-inner > div:hover{
-    transform: translateY(-2.5px);
+    transform: translateY(-0.3rem);
     transition: 0.3s ease-in-out;
 }
 
